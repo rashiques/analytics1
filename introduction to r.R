@@ -54,4 +54,6 @@ plot(1:10)
 #clean console by take cursor to console ctrl+l
 Sys.Date()
 getwd()
+# first create a R file with some content  in current file
+source('test1.R')
 
