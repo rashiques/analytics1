@@ -14,3 +14,6 @@ summary(fit3)
 #mannual doing each below line so olsrr function make it easy
 summary(lm(mpg ~ wt, data=mtcars))
 summary(lm(mpg ~ wt+ hp, data=mtcars))
+AIC(fit3)# akalke information crieteria which ever give you lesser aic you have to select that
+fit4=lm(mpg~ .,data=mtcars)# take all the variable
+AIC(fit4)#AIC OF FIT3 IS LESS THAN FIT4 so use fit3
