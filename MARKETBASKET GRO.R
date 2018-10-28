@@ -7,6 +7,7 @@ data('Groceries')
 Groceries
 
 #Structure of Groceries
+
 str(Groceries)
 Groceries
 arules::LIST(Groceries[1:6])  #another view first six transaction
