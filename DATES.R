@@ -129,10 +129,15 @@ bday
 format(bday,format="%A")
 #FIND DAYS PASSED SINCE YOU WERE BORN
 tdy=Sys.Date()
+b=tdy-bday
+b
 #FIND DAYS PASSED  FROM YPUR BIRTH TILL YOU JOINED YOUR INSTITUTE
-as.Date("27-07-2017",format=(%d-%m-%y))-birthday
+as.Date("27-07-2017",format = ("%d-%m-%Y"))-bday
+
+
 #find difference between u and ur frd dob in days
-as.Date("27-07-1996",format=(%d-%m-%y))-birthday
+as.Date("27-07-1996",format=("%d-%m-%y"))-bday
+
 
 
         
