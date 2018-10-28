@@ -121,13 +121,18 @@ as.character(Sys.Date(), format="%Y--%m--%d %A")
 course1
 paste(course1 , as.character(course1, format="%A"), sep=":: ")
 
-birthday="7/07/1994"
+birthday="7-07-1994"
 birthday
-bday=as.Date(birthday,format = ("%d/%M/%y"))
+bday=as.Date(birthday,format = ("%d-%m-%Y"))
 
 bday
 format(bday,format="%A")
 #FIND DAYS PASSED SINCE YOU WERE BORN
 tdy=Sys.Date()
 #FIND DAYS PASSED  FROM YPUR BIRTH TILL YOU JOINED YOUR INSTITUTE
-as.Date("27-07-2017",format=(%d-%M-%y))
+as.Date("27-07-2017",format=(%d-%m-%y))-birthday
+#find difference between u and ur frd dob in days
+as.Date("27-07-1996",format=(%d-%m-%y))-birthday
+
+
+        
