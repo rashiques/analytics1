@@ -1,6 +1,4 @@
 #statistical concepts (Measures of centrality, Central limit theorem, Confidence intervals, Hypothesis testing, ANOVA, Correlation, Covariance)
-
-
 #CLT-----
 #The CLT says that if you take many repeated samples from a population, and calculate the averages or sum of each one, the collection of those averages will be normally distributed… and it doesn’t matter what the shape of the source distribution is!
 #https://www.r-bloggers.com/sampling-distributions-and-central-limit-theorem-in-r/
